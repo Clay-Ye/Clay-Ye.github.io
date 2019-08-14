@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Clay的博客</title>
-    <link>https://Clay-Ye.github.io/post/</link>
-    <description>Recent content in Posts on Clay的博客</description>
+    <title>matplotlib on Clay的博客</title>
+    <link>https://Clay-Ye.github.io/tags/matplotlib/</link>
+    <description>Recent content in matplotlib on Clay的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
     <lastBuildDate>Tue, 13 Aug 2019 21:46:18 +0800</lastBuildDate>
     
-	<atom:link href="https://Clay-Ye.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://Clay-Ye.github.io/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,24 +19,6 @@
       <guid>https://Clay-Ye.github.io/post/%E4%BD%BF%E7%94%A8matplotlib%E7%94%BB%E6%A1%86/</guid>
       <description>使用 matplotlib 读取图像，在图像上框出人脸部分
 # 导入必要的库 import matplotlib.pyplot as plt import matplotlib.patches as patches from PIL import Image import numpy as np # 读取图像，转换为 numpy 数组 im = np.array(Image.open(&#39;arimura.jpg&#39;), dtype=np.uint8) # 创建图像和轴 fig,ax = plt.subplots(1) ax.imshow(im) # 获取到面部位置，由 S3DF 模型获得 a = np.array([170, 88, 308, 301]) rect = patches.Rectangle((a[0],a[1]),a[2]-a[0],a[3]-a[1],linewidth=1,edgecolor=&#39;r&#39;,facecolor=&#39;none&#39;) ax.add_patch(rect) # 显示图像 plt.show()  结果如下：</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://Clay-Ye.github.io/post/test/</link>
-      <pubDate>Thu, 01 Aug 2019 12:06:16 +0800</pubDate>
-      
-      <guid>https://Clay-Ye.github.io/post/test/</guid>
-      <description> ok </description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://Clay-Ye.github.io/post/first/</link>
-      <pubDate>Wed, 31 Jul 2019 14:06:58 +0800</pubDate>
-      
-      <guid>https://Clay-Ye.github.io/post/first/</guid>
-      <description>hello Hugo this is the first page in my site</description>
     </item>
     
   </channel>

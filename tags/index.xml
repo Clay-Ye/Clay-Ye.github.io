@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Clay的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
+    <lastBuildDate>Tue, 13 Aug 2019 21:46:18 +0800</lastBuildDate>
     
 	<atom:link href="https://Clay-Ye.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>matplotlib</title>
+      <link>https://Clay-Ye.github.io/tags/matplotlib/</link>
+      <pubDate>Tue, 13 Aug 2019 21:46:18 +0800</pubDate>
+      
+      <guid>https://Clay-Ye.github.io/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://Clay-Ye.github.io/tags/python/</link>
+      <pubDate>Tue, 13 Aug 2019 21:46:18 +0800</pubDate>
+      
+      <guid>https://Clay-Ye.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>计算机视觉</title>
+      <link>https://Clay-Ye.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</link>
+      <pubDate>Tue, 13 Aug 2019 21:46:18 +0800</pubDate>
+      
+      <guid>https://Clay-Ye.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
